@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:carvermarble/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:carvermarble/pipelineUser:token
+  username: cloudbees-ci-cd[bot]
+prow:
+  hmacToken: vault:carvermarble/prow:hmacToken
+segmentWriteKey: vault:carvermarble:segmentWriteKey
